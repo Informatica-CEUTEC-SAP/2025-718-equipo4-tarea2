@@ -6,11 +6,11 @@ namespace RestauranteAPI.Controllers;
 
 [ApiController]
 [Route("api/platos")]
-public class Platos : ControllerBase
+public class CategoriasController : ControllerBase
 {
     private readonly IPlatoService _service;
 
-    public Platos(IPlatoService service)
+    public CategoriasController(IPlatoService service)
     {
         _service = service;
     }
