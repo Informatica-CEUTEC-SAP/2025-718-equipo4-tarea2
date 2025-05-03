@@ -5,9 +5,9 @@ services:
     image: postgres:15
     container_name: postgres-db
     environment:
-      POSTGRES_USER: carlos
-      POSTGRES_PASSWORD: 2004
-      POSTGRES_DB: gestorrestaurante
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123456
+      POSTGRES_DB: RestauranteDb
     ports:
       - "5432:5432"
     volumes:
