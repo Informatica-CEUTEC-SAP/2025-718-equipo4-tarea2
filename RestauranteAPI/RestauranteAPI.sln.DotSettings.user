@@ -8,4 +8,7 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EE03972D_002DDCA2_002D4A2E_002D8197_002DEA565B878F9D_002Fd_003AInterfaces_002Ff_003AICategoriaService_002Ecs/@EntryIndexedValue">ExplicitlyExcluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EE03972D_002DDCA2_002D4A2E_002D8197_002DEA565B878F9D_002Fd_003AInterfaces_002Ff_003AIPlatoService_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EE03972D_002DDCA2_002D4A2E_002D8197_002DEA565B878F9D_002Fd_003AServices_002Ff_003ACategoriaService_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EE03972D_002DDCA2_002D4A2E_002D8197_002DEA565B878F9D_002Ff_003AIPlatoService_002Ecs/@EntryIndexedValue">ExplicitlyExcluded</s:String></wpf:ResourceDictionary>
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=EE03972D_002DDCA2_002D4A2E_002D8197_002DEA565B878F9D_002Ff_003AIPlatoService_002Ecs/@EntryIndexedValue">ExplicitlyExcluded</s:String>
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;&#xD;
+  &lt;PhysicalFolder Path="C:\Users\carlos\Documents\Programacion Web\Proyectos\Gestion de Restaurante\2025-718-equipo4-tarea2" Loaded="True" /&gt;&#xD;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

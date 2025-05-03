@@ -10,6 +10,8 @@
         <ProjectReference Include="..\Application\Application.csproj" />
         <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
         <ProjectReference Include="..\Domain\Domain.csproj" />
+        <ProjectReference Include="..\RestauranteAPI.Application\RestauranteAPI.Application.csproj" />
+        <ProjectReference Include="..\RestauranteAPI.Domain\RestauranteAPI.Domain.csproj" />
     </ItemGroup>
 
 </Project>

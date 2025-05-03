@@ -1,27 +1,27 @@
-﻿using Microsoft.EntityFrameworkCore;
-using RestauranteAPI.Application.Interfaces;
-using RestauranteAPI.Domain.Entities;
-using RestauranteAPI.Infrastructure.Context;
+﻿using RestauranteAPI.Domain.Entities;
+using RestauranteAPI.Domain.Interfaces;
+using RestauranteAPI.Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace RestauranteAPI.Infrastructure.Repositories
 {
     public class CategoriaRepository : ICategoriaRepository
     {
-        private readonly RestauranteDbContext _context;
+        private readonly AppDbContext _context;
 
-        public CategoriaRepository(RestauranteDbContext context)
+        public CategoriaRepository(AppDbContext context)
         {
             _context = context;
         }
 
-        public async Task<IEnumerable<Categoria>> GetAllAsync()
+        public async Task<List<Categoria>> GetAllAsync()
         {
             return await _context.Categorias.ToListAsync();
         }
 
         public async Task<Categoria> CreateAsync(Categoria categoria)
         {
-            _context.Categorias.Add(categoria);
+            _context.Categorias.Add(categoria); // <-- No es AddAsync aquí
             await _context.SaveChangesAsync();
             return categoria;
         }
