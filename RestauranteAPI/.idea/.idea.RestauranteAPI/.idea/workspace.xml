@@ -9,11 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57812063-fdb5-4823-acdb-695d8b3b8016" name="Changes" comment="">
+    <list default="true" id="6e02114c-161f-490b-b0a4-752aed256d4f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../RestauranteAPI.Tests/Controllers/CategoriaControllerTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestauranteAPI.Tests/Factories/WebApplicationFactoryTestFixture.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestauranteAPI.Tests/Services/CategoriaServiceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/Controllers/CategoriasControllerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/Controllers/PlatosControllerTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/RestauranteAPI.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../RestauranteAPI.Tests/RestauranteAPI.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/RestauranteAPI.Tests.csproj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestauranteAPI.Tests/RestauranteAPI.Tests.csproj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/TestData/TestDataContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestauranteAPI.Tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RestauranteAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RestauranteAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RestauranteAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RestauranteAPI/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestauranteAPI/RestauranteAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RestauranteAPI/RestauranteAPI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestauranteAPI/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/RestauranteAPI/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestauranteAPI/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/RestauranteAPI/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +29,6 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="XML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,10 +45,6 @@
     &quot;accountId&quot;: &quot;ad57b35a-6105-445d-a6ff-81766a41b58e&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RestauranteAPI.Application/Interfaces/ICategoriaService.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RestauranteAPI/Controllers/CategoriasController.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -57,13 +53,14 @@
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2wYznj8JJVmLniXUKsncMqea8UW" />
+  <component name="ProjectId" id="2wboY4xaW1FG22gRINk3GweD0jk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.RestauranteAPI: http.executor&quot;: &quot;Run&quot;,
     &quot;.NET Launch Settings Profile.RestauranteAPI: https.executor&quot;: &quot;Run&quot;,
     &quot;Docker.RestauranteAPI/Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -131,13 +128,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="57812063-fdb5-4823-acdb-695d8b3b8016" name="Changes" comment="" />
-      <created>1746233464795</created>
+      <changelist id="6e02114c-161f-490b-b0a4-752aed256d4f" name="Changes" comment="" />
+      <created>1746319678560</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746233464795</updated>
-      <workItem from="1746233466038" duration="203000" />
-      <workItem from="1746233849445" duration="8053000" />
+      <updated>1746319678560</updated>
+      <workItem from="1746319679619" duration="2491000" />
     </task>
     <servers />
   </component>

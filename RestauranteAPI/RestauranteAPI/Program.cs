@@ -31,3 +31,6 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+// 👇 Esto es clave para que los tests con WebApplicationFactory funcionen
+public partial class Program { }
