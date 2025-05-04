@@ -1,14 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.Extensions.Hosting;
-using System.Net.Http;
 
 namespace RestauranteAPI.Tests.Factories
 {
-    public class WebApplicationFactoryTestFixture : WebApplicationFactory<RestauranteAPI.Startup>
+    // Usa Program como punto de entrada en lugar de Startup
+    public class WebApplicationFactoryTestFixture : WebApplicationFactory<Program>
     {
-        public HttpClient CreateClient()
-        {
-            return base.CreateClient();
-        }
     }
 }

@@ -22,17 +22,24 @@ namespace RestauranteAPI.Tests.Controllers
         public async Task GetAllCategorias_ReturnsOkStatusCode()
         {
             var response = await _client.GetAsync("/api/categoria");
-            response.EnsureSuccessStatusCode(); // Asegura que la respuesta fue exitosa (código 200)
+            response.EnsureSuccessStatusCode(); // Código 200
         }
 
         [Fact]
-        public async Task CreateCategoria_ReturnsCreatedStatusCode()
+        public async Task CreateCategoria_ReturnsCreatedCategoria()
         {
-            var newCategoria = new Categoria { Nombre = "Bebidas" };
-            var content = new StringContent(JsonConvert.SerializeObject(newCategoria), Encoding.UTF8, "application/json");
+            var newCategoria = new Categoria { Nombre = "Entradas" };
+            var json = JsonConvert.SerializeObject(newCategoria);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             var response = await _client.PostAsync("/api/categoria", content);
-            response.EnsureSuccessStatusCode(); // Asegura que la respuesta fue exitosa (código 201)
+            response.EnsureSuccessStatusCode(); // Código 201
+
+            var responseString = await response.Content.ReadAsStringAsync();
+            var created = JsonConvert.DeserializeObject<Categoria>(responseString);
+
+            Assert.NotNull(created);
+            Assert.Equal("Entradas", created.Nombre);
         }
     }
 }

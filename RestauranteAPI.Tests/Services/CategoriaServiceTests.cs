@@ -2,6 +2,7 @@
 using RestauranteAPI.Application.Interfaces;
 using RestauranteAPI.Application.Services;
 using RestauranteAPI.Domain.Entities;
+using System;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -19,18 +20,28 @@ namespace RestauranteAPI.Tests.Services
         }
 
         [Fact]
-        public async Task CrearCategoria_ReturnsCategoria()
+        public async Task CrearCategoriaAsync_ValidCategoria_ReturnsCategoria()
         {
+            // Arrange
             var newCategoria = new Categoria { Nombre = "Bebidas" };
-
             _categoriaRepositoryMock
                 .Setup(repo => repo.CreateAsync(It.IsAny<Categoria>()))
                 .ReturnsAsync(newCategoria);
 
+            // Act
             var result = await _categoriaService.CrearCategoriaAsync(newCategoria);
 
+            // Assert
             Assert.NotNull(result);
             Assert.Equal("Bebidas", result.Nombre);
+        }
+
+        [Fact]
+        public async Task CrearCategoriaAsync_NullCategoria_ThrowsArgumentNullException()
+        {
+            // Act & Assert
+            await Assert.ThrowsAsync<ArgumentNullException>(() =>
+                _categoriaService.CrearCategoriaAsync(null));
         }
     }
 }
