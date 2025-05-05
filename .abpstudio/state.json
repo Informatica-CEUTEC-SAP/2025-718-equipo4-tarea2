@@ -1,0 +1,22 @@
+﻿{
+  "selectedKubernetesProfile": null,
+  "solutionRunner": {
+    "selectedProfile": "Default",
+    "targetFrameworks": [],
+    "applicationsStartingWithoutBuild": [],
+    "applicationsWithoutAutoRefreshBrowserOnRestart": [],
+    "applicationBatchStartStates": [
+      {
+        "profile": "Default",
+        "applicationOrFolder": "Autolote_360.Angular",
+        "value": 0
+      },
+      {
+        "profile": "Default",
+        "applicationOrFolder": "Autolote_360.HttpApi.Host",
+        "value": 0
+      }
+    ],
+    "folderBatchStartStates": []
+  }
+}
